@@ -1,12 +1,18 @@
 {
   "name": "redis-lua",
   "description": "Adds lua scripting to node_redis",
-  "version": "0.0.6",
-  "keywords": ["redis", "scripting", "lua"],
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/mit-license.php"
-  }],
+  "version": "0.0.7",
+  "keywords": [
+    "redis",
+    "scripting",
+    "lua"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
   "homepage": "https://github.com/shirro/node_redis_lua",
   "repository": {
     "type": "git",
@@ -15,9 +21,9 @@
   "author": "Paul Shirren <shirro@shirro.com> (https://shirro.com/)",
   "main": "./redis-lua.js",
   "files": [
-     "README",
-     "redis-lua.js",
-     "package.json"
+    "README",
+    "redis-lua.js",
+    "package.json"
   ],
   "dependencies": {
     "redis": "0.11.0"
